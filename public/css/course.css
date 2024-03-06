@@ -1,0 +1,99 @@
+.course-btn{
+    width: 100%;
+}
+
+.course-btn .table-btn-sm:hover{
+    background-color: white !important;
+    color: #0465cc!important;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    align-content: center;
+}
+
+.course-width .table-btn-sm:hover{
+    color: #0465cc !important;
+    background-color: transparent !important;
+}
+
+.course-width{
+    width: 40%;
+
+}
+
+.add-course{
+    position: sticky;
+    bottom: 0;
+}
+
+.course-row{
+    max-height: 500px;
+
+    overflow: scroll;
+}
+
+.course-row::-webkit-scrollbar{
+    display: none;
+}
+
+.course-row .form-control{
+    width: auto;
+}
+
+.edit-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 15%;
+    align-content: center;
+}
+
+.sec-grid{
+    display: grid;
+    grid-template-columns:15% 1fr ;
+    align-content: center;
+}
+
+@media screen and (max-width:768px){
+    .course-width{
+        width: auto;
+
+    }
+}
+
+
+@media screen and (max-width:460px){
+    .course-width{
+        width: 100%;
+    }
+
+    .row-item .form-control{
+        width: 20rem;
+    }
+
+    .row-item {
+        display: flex;
+    }
+
+    .p-fixed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #4444447e !important;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .add-course{
+        width: 50% !important;
+    }
+
+    .course-row {
+        max-height: 470px;
+
+    }
+
+}

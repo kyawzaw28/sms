@@ -1,0 +1,210 @@
+.select2-container--default .select2-selection--multiple {
+    height: auto !important;
+}
+
+/* .form-control,
+.slectopt {
+    width: 14.5rem;
+} */
+
+.test {
+    margin-right: 2rem;
+}
+.multisel-day {
+    width: 78%;
+}
+
+/* created success message */
+.success-alt {
+    position: relative;
+}
+.success-msg {
+    background: none;
+    border: none;
+    top: 2px;
+    right: 0;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    height: 20px !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #e9ecef !important;
+}
+
+.select2 {
+    width: 100% !important;
+}
+
+.pay-status {
+    /* width: 3.5rem; */
+    color: #fff;
+    padding: 3px 0;
+}
+
+.dropdown-arrowIcon,
+.dropup-arrowIcon,
+.dropdown-arrowIcon2,
+.dropup-arrowIcon2 {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-left: 2px solid #666;
+    border-bottom: 2px solid #666;
+    margin: 0.4rem 0 0 3rem;
+    transition: all 0.33s ease;
+    cursor: pointer;
+}
+
+.dropdown-arrowIcon,
+.dropdown-arrowIcon2 {
+    transform: rotate(-220deg);
+}
+
+.dropup-arrowIcon,
+.dropup-arrowIcon2 {
+    transform: rotate(-45deg);
+}
+
+/* .modal-backdrop {
+    width: 0;
+    height: 0;
+} */
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    min-width: auto !important;
+    padding: 0.3rem !important;
+}
+
+.list-lecturer-col {
+    width: 25%;
+}
+
+.list-course-col {
+    width: 25%;
+}
+
+.list-status-col {
+    width: 8%;
+}
+
+.list-payment-col {
+    width: 8%;
+}
+
+.list-control-col {
+    width: 14%;
+}
+
+.table-responsive {
+    /* max-height: 34rem; */
+}
+
+.table-responsive::-webkit-scrollbar {
+    display: none;
+}
+
+.select2-selection__choice {
+    color: black !important;
+    background: #e5e8ff !important;
+    width: 60px;
+    font-size: 10px;
+}
+
+.testcalendar input,
+.testcalendar select {
+    width: 70%;
+}
+
+.select2-container {
+    width: 70% !important;
+}
+
+.class-colorpicker {
+    height: 34px;
+    width: 40px !important;
+    border: none;
+}
+
+.required:after{
+    content:" *";
+    color: red;
+}
+@media screen and (max-width: 768px) {
+    .control-btns {
+        display: none !important;
+    }
+
+    .control-btn {
+        display: block !important;
+    }
+
+    .class-table {
+        padding: 0;
+    }
+
+    .class-filter {
+        padding: 0.4rem !important;
+    }
+
+    .cnl-btn,
+    .sub-btn {
+        margin-right: 0 !important;
+        padding: 0.2rem 0.6rem !important;
+    }
+
+    .class-filter-container {
+        padding-right: 0 !important;
+    }
+
+    .btn-outline-primary:hover,
+    .btn-outline-primary:active {
+        color: #fff !important;
+        background-color: #0465cc !important;
+    }
+
+    .list-lecturer-col {
+        width: 35%;
+    }
+
+    .list-course-col {
+        width: 35%;
+    }
+
+    .list-status-col {
+        width: 20%;
+    }
+
+    .list-control-col {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .test {
+        margin-right: 0;
+    }
+
+    .list-lecturer-col {
+        width: 35%;
+    }
+
+    .list-course-col {
+        width: 35%;
+    }
+
+    .list-status-col {
+        width: 20%;
+    }
+
+    .list-control-col {
+        width: 10%;
+    }
+}

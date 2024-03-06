@@ -1,0 +1,113 @@
+.top-search {
+    flex-wrap: nowrap !important;
+}
+
+.top-search input {
+    outline: none;
+    border: none;
+}
+
+.input-group-prepend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group-text {
+    padding: 0;
+    border: 0;
+    background: white;
+}
+
+.pay-status {
+    margin-right: 0 !important;
+}
+
+.page-wrapper {
+    
+
+}
+
+.payment-list-container {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #ebebeb;
+    font-weight: 400;
+}
+
+
+
+  .payment-list-container h2{
+    border-bottom: 2px solid black;
+  }
+
+  .payment-list-header , .payment-list-body{
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0.8rem;
+    border-bottom:1px solid #8f8f8f !important;
+    text-align: center;
+  }
+
+  .payment-list-header{
+    font-weight: 800;
+  }
+
+  #paymentList{
+    height: 190px;
+    overflow: scroll;
+  }
+
+  #paymentList::-webkit-scrollbar {
+    display: none;
+  }
+
+.list-date-col {
+    width: 15%;
+}
+
+.list-class-col {
+    width: 25%;
+}
+.list-course-col {
+    width: 15%;
+}
+.list-student-col {
+    width: 13%;
+}
+
+.list-fees-col {
+    width: 12%;
+}
+
+.list-due-col {
+    width: 12%;
+}
+
+.list-type-col {
+    width: 8%;
+}
+
+@media screen and (max-width: 768px) {
+    .list-date-col {
+        width: 20%;
+    }
+
+    .list-class-col {
+        width: 30%;
+    }
+
+    .list-fees-col {
+        width: 15%;
+    }
+
+    .list-due-col {
+        width: 15%;
+    }
+
+    .list-type-col {
+        width: 20%;
+    }
+}

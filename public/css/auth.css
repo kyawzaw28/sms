@@ -1,0 +1,40 @@
+.login-page{
+    background-color: #D9D9D9;
+    height: 100%;
+}
+
+.login-page .bg-dark{
+    background-color: #2B2B41 !important;
+
+}
+
+.login-img{
+    height: 250px;
+}
+
+.login-form{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 0 0 10px  #00000028;
+    border-radius: 6px;
+}
+
+.login-left{
+    padding: 1rem;
+}
+
+.login-form .card-body{
+    padding: 0 !important;
+}
+
+.login-right{
+    padding: 1rem;
+    background-color: #E7E7E7;
+}
+
+.login-right label{
+    width: 100px;
+}
+
+

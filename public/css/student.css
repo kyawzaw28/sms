@@ -1,0 +1,111 @@
+.student-table .w-15 {
+    width: 15%;
+}
+
+.student-table .w-30 {
+    width: 30%;
+}
+
+.table-responsive::-webkit-scrollbar {
+    display: none;
+}
+
+.headingtext {
+    font-weight: 800 !important;
+    border-bottom:1px solid #8f8f8f !important;
+    line-height: 1.9rem;
+}
+
+.addline {
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.EmptyData{
+    line-height: 1.9rem;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.payment-list-containerfirst {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #ebebeb;
+    font-weight: 400;
+}
+
+.payment-list-container {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #ebebeb;
+    font-weight: 400;
+}
+
+.payment-list-container h2 {
+    border-bottom: 2px solid black;
+}
+
+.payment-list-header,
+.payment-list-body {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0.8rem;
+    border-bottom: 1px solid #8f8f8f !important;
+    text-align: center;
+}
+
+.payment-list-header {
+    font-weight: 800;
+}
+
+#paymentList {
+    height: 190px;
+    overflow: scroll;
+}
+
+#paymentList::-webkit-scrollbar {
+    display: none;
+}
+
+.fontsetting {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+/* .student-table td:last-child{
+    text-align: end !important;
+} */
+
+
+@media screen and (max-width: 768px) {
+    .table thead th:first-child {
+        width: 25% !important;
+    }
+
+    .dropdown-menu {
+        width: auto !important;
+    }
+
+    .btn-outline-primary:hover,
+    .btn-outline-primary:active {
+        color: #fff !important;
+        background-color: #0465cc !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .student-list {
+        width: 100% !important;
+    }
+
+    .student-table {
+        overflow: scroll;
+    }
+
+    .student-table::-webkit-scrollbar {
+        display: none;
+    }
+}

@@ -1,0 +1,59 @@
+# Environment specific files
+.env
+.env.example
+.env.local
+.env.testing
+.env.production
+
+# Build and cache directories
+/vendor
+/node_modules
+/public/build
+/public/hot
+/storage/*.key
+
+# Testing and debugging files
+phpunit.xml
+pytest.xml
+.vscode/
+.idea/
+npm-debug.log
+yarn-error.log
+
+# Logs and temporary files
+*.log
+storage/logs/*
+debugbar/*.php
+
+# IDE specific files
+/.gitpod/*
+/.phpstorm/
+
+# Editor temporary files
+Thumbs.db
+*.swp
+*.swo
+
+# Composer related files
+composer.lock
+
+# Laravel installer
+homestead.json
+homestead.yaml
+
+# Specific to package installers
+package-lock.json
+
+# PHPUnit
+phpunit.result.cache
+
+# NPM packages (if applicable)
+package.json
+
+# Yarn packages (if applicable)
+yarn.lock
+
+# Other potential configuration files
+.prettierrc
+.stylelintrc
+jest.config.js
