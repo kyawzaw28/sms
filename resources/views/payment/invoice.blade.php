@@ -34,7 +34,7 @@
     <div class="row d-flex justify-content-center align-items-center">
       <div class="col-6 d-flex">
         <b class="logo-icon">
-          <img src="http://localhost:8000/admin/assets/images/[removal.ai]_535d621a-bef4-4b84-a129-576bf5f0ac1f-o-technique200.png" alt="homepage" class="light-logo">
+          <!-- <img src="http://localhost:8000/admin/assets/images/[removal.ai]_535d621a-bef4-4b84-a129-576bf5f0ac1f-o-technique200.png" alt="homepage" class="light-logo"> -->
           <h3 class="text-white text-center" >Invoice</h3>
         </b>
       </div>

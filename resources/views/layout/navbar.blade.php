@@ -5,7 +5,7 @@
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="{{asset('admin/assets/images/[removal.ai]_535d621a-bef4-4b84-a129-576bf5f0ac1f-o-technique200.png')}}" alt="homepage" class="light-logo" />
+                            <!-- <img src="{{asset('admin/assets/images/[removal.ai]_535d621a-bef4-4b84-a129-576bf5f0ac1f-o-technique200.png')}}" alt="homepage" class="light-logo" /> -->
 
                         </b>
                         <!--End Logo icon -->
